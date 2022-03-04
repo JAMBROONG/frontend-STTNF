@@ -14,6 +14,21 @@ const users = [
     name: "Nurul",
     age: 23,
     major: "English"
+  },
+  {
+    name: "Budi",
+    age: 24,
+    major: "Math"
+  },
+  {
+    name: "Joko",
+    age: 22,
+    major: "Physics"
+  },
+  {
+    name: "Supri",
+    age: 25,
+    major: "Chremicals"
   }
 ];
 
