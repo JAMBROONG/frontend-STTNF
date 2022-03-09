@@ -22,7 +22,11 @@ import users from '../data/users.js';
 const formatUser = (title) => {
     return new Promise((resolve, reject) => {
         const hasil = users.map((user) => {
-            return title + '. ' + user.name;
+            return {
+                name: title + '. ' + user.name,
+                age: user.age,
+                major: user.major
+            };
         });
         setTimeout(() => {
             resolve(hasil);
