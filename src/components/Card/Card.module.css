@@ -1,0 +1,46 @@
+/* Small Screen */
+.card {
+    background: white;
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.27);
+}
+
+.card__title {
+    color: #073b4c;
+    font-size: 1.95rem;
+    margin-bottom: 0.1rem;
+}
+
+.card__content_recovered{
+    color: #00BFA6;
+    font-weight: bold;
+    font-size: 30px;
+}
+.card__content_positive{
+    color: #118ab2;
+    font-weight: bold;
+    font-size: 30px;
+}
+.card__content_dead{
+    color: #ef476f;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+    .card {
+        flex-basis: 50%;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+    .card {
+        flex-basis: 25%;
+        padding: 1rem;
+    }
+}

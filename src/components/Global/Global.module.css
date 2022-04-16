@@ -1,0 +1,42 @@
+/* Small Screen */
+.container {
+    margin: 5rem auto;
+  }
+  
+  .global {
+    text-align: center;
+  }
+  
+  .global__title {
+    font-size: 2.44rem;
+    color: #00BFA6;
+  }
+  .global__subtitle {
+    margin-bottom: 5rem;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #118ab2;
+  }
+  
+  .card__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+    .card__container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+  

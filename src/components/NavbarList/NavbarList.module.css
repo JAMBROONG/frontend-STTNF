@@ -1,0 +1,21 @@
+.navbar__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  .navbar__item {
+    margin-bottom: 1rem;
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+  
+    .navbar__list {
+      flex-direction: row;
+    }
+  
+    .navbar__item {
+      margin: 0 1rem;
+    }
+  }
